@@ -3,13 +3,13 @@ nej-livereload
 ===============
 
 An implementation of the LiveReload server in Node.js. It's an alternative to the graphical [http://livereload.com/](http://livereload.com/) application, which monitors files for changes and reloads your web browser.
-本插件基于Node.js实现了LiveReload的服务端，它替代了（http://livereload.com/）官网提供的服务软件，所做的功能都是用于监听文件变化并自动刷新你的网页。
+本插件基于Node.js实现了LiveReload的服务端，它替代了(http://livereload.com/)官网提供的服务软件，所做的功能都是用于监听文件变化并自动刷新你的网页。
 
 # Example Usage
 
 You can use this by either adding a snippet of code to the bottom of your HTML pages **or** install the Browser Extensions.
-你有两种方式来连接这个服务端：一种是安装(http://livereload.com/)网站提供的插件，一种是在你的HTML页面尾部添加一段JS代码。
-ps:需要说明的是，(http://livereload.com/)官网提供的插件是开源免费的，但是提供的服务端是收费的。
+你有两种方式来连接这个服务端：一种是安装(http://livereload.com/) 网站提供的插件，一种是在你的HTML页面尾部添加一段JS代码。
+ps:需要说明的是，(http://livereload.com/) 官网提供的插件是开源免费的，但是提供的服务端是收费的。
 
 ## Method 1: Add browser extension
 
