@@ -1,0 +1,24 @@
+{
+  "name": "nejlivereload",
+  "description": "NEJLiveReload server",
+  "main": "./lib/livereload.js",
+  "authors": [
+    "[object Object]"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/chalecao/nej-livereload",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "ext/vendor",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "livereload-js": "~2.2.1"
+  }
+}

@@ -32,6 +32,12 @@ Add this code:
 Note: If you are using a different port other than `35729` you will
 need to change the above script.
 在HTML页面body闭合之前添加上面的js代码，注意如果你的服务端的端口号作了修改，上面代码中的端口号也要做修改。
+# install livereload
+firstly, you should install livereload.js by bower
+首先，你需要通过bower安装livereload.js
+```
+    bower install
+```
 
 # Running LiveReload
 
