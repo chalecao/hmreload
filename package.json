@@ -1,32 +1,44 @@
-{ "name": "nejlivereload"
-, "description": "NEJLiveReload server"
-, "version": "0.4.0"
-, "contributors": [
-    { "name": "Chale Cao", "email": "ch19900606@gmail.com" }
-  ]
-, "licenses": [
-  { "type": "MIT"
-  , "url": "https://github.com/chalecao/nej-livereload/blob/master/LICENSE"
-  }]
-, "repository":
-  { "type": "git"
-  , "url": "https://github.com/chalecao/nej-livereload.git"
-  }
-, "bin": { "livereload": "./bin/livereload.js" }
-, "main": "./lib/livereload.js"
-, "dependencies": {
+{
+  "name": "nejlivereload",
+  "description": "NEJLiveReload server",
+  "version": "0.4.0",
+  "contributors": [
+    {
+      "name": "Chale Cao",
+      "email": "ch19900606@gmail.com"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/chalecao/nej-livereload/blob/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chalecao/nej-livereload.git"
+  },
+  "bin": {
+    "livereload": "./bin/livereload.js"
+  },
+  "main": "./lib/livereload.js",
+  "dependencies": {
     "chokidar": "^1.1.0",
     "opts": ">= 1.2.0",
     "ws": "^0.8.0"
-  }
-, "devDependencies": {
-    "request": ">= 2.9.203",
-    "should": ">= 0.6.3",
+  },
+  "devDependencies": {
+    "coffee-script": ">= 1.8.0",
+    "gulp": "^3.9.0",
+    "gulp-ruby-sass": "^2.0.6",
     "mocha": ">= 1.0.3",
-    "coffee-script": ">= 1.8.0"
-  }
-, "engines" : { "node" : ">=0.4.0" }
-, "scripts": {
+    "request": ">= 2.9.203",
+    "should": ">= 0.6.3"
+  },
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "scripts": {
     "test": "mocha"
   }
 }
