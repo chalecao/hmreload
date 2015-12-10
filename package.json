@@ -1,7 +1,7 @@
 {
   "name": "hmlivereload",
   "description": "haomou LiveReload server",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "contributors": [
     {
       "name": "Chale Cao",
@@ -19,7 +19,7 @@
     "url": "https://github.com/chalecao/hm-livereload.git"
   },
   "bin": {
-    "livereload": "./bin/hmreload.js"
+    "hmreload": "./bin/hmreload.js"
   },
   "main": "./lib/hmreload.js",
   "dependencies": {
