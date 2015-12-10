@@ -1,7 +1,7 @@
 {
-  "name": "nejlivereload",
-  "description": "NEJLiveReload server",
-  "version": "0.4.0",
+  "name": "hmlivereload",
+  "description": "haomou LiveReload server",
+  "version": "0.0.1",
   "contributors": [
     {
       "name": "Chale Cao",
@@ -11,17 +11,17 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/chalecao/nej-livereload/blob/master/LICENSE"
+      "url": "https://github.com/chalecao/hm-livereload/blob/master/LICENSE"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/chalecao/nej-livereload.git"
+    "url": "https://github.com/chalecao/hm-livereload.git"
   },
   "bin": {
-    "livereload": "./bin/livereload.js"
+    "livereload": "./bin/hmreload.js"
   },
-  "main": "./lib/livereload.js",
+  "main": "./lib/hmreload.js",
   "dependencies": {
     "chokidar": "^1.1.0",
     "opts": ">= 1.2.0",

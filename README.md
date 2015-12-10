@@ -1,5 +1,5 @@
 
-nej-livereload
+hm-livereload
 ===============
 
 An implementation of the LiveReload server in Node.js. It's an alternative to the graphical [http://livereload.com/](http://livereload.com/) application, which monitors files for changes and reloads your web browser.
