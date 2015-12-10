@@ -25,7 +25,9 @@
   "dependencies": {
     "chokidar": "^1.1.0",
     "opts": ">= 1.2.0",
-    "ws": "^0.8.0"
+    "ws": "^0.8.0",
+    "gulp": "^3.9.0",
+    "gulp-ruby-sass": "^2.0.6"
   },
   "devDependencies": {
     "coffee-script": ">= 1.8.0",
