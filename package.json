@@ -1,7 +1,7 @@
 {
   "name": "hmreload",
   "description": "nice easy use live refresh you website",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "contributors": [
     {
       "name": "Chale Cao",
@@ -24,6 +24,7 @@
   "main": "./lib/hmreload.js",
   "dependencies": {
     "chokidar": "^1.1.0",
+    "livereload-js": "^2.2.2",
     "opts": ">= 1.2.0",
     "ws": "^0.8.0"
   },
