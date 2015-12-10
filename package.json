@@ -1,7 +1,7 @@
 {
   "name": "hmlivereload",
   "description": "haomou LiveReload server",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "contributors": [
     {
       "name": "Chale Cao",
@@ -36,7 +36,7 @@
     "should": ">= 0.6.3"
   },
   "engines": {
-    "node": ">=0.4.0"
+    "nodne": ">=0.4.0"
   },
   "scripts": {
     "test": "mocha"
