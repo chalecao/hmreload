@@ -1,19 +1,20 @@
-hmreload
+ï»¿hmreload
+nice easy use live refresh you website
 ===============
 
 An implementation of the LiveReload server in Node.js. It's an alternative to the graphical [http://livereload.com/](http://livereload.com/) application, which monitors files for changes and reloads your web browser.
-±¾²å¼ş»ùÓÚNode.jsÊµÏÖÁËLiveReloadµÄ·şÎñ¶Ë£¬ËüÌæ´úÁË(http://livereload.com/)¹ÙÍøÌá¹©µÄ·şÎñÈí¼ş£¬Ëù×öµÄ¹¦ÄÜ¶¼ÊÇÓÃÓÚ¼àÌıÎÄ¼ş±ä»¯²¢×Ô¶¯Ë¢ĞÂÄãµÄÍøÒ³¡£
+æœ¬æ’ä»¶åŸºäºNode.jså®ç°äº†LiveReloadçš„æœåŠ¡ç«¯ï¼Œå®ƒæ›¿ä»£äº†(http://livereload.com/)å®˜ç½‘æä¾›çš„æœåŠ¡è½¯ä»¶ï¼Œæ‰€åšçš„åŠŸèƒ½éƒ½æ˜¯ç”¨äºç›‘å¬æ–‡ä»¶å˜åŒ–å¹¶è‡ªåŠ¨åˆ·æ–°ä½ çš„ç½‘é¡µã€‚
 
 # Example Usage
 
 You can use this by either adding a snippet of code to the bottom of your HTML pages **or** install the Browser Extensions.
-ÄãÓĞÁ½ÖÖ·½Ê½À´Á¬½ÓÕâ¸ö·şÎñ¶Ë£ºÒ»ÖÖÊÇ°²×°(http://livereload.com/) ÍøÕ¾Ìá¹©µÄ²å¼ş£¬Ò»ÖÖÊÇÔÚÄãµÄHTMLÒ³ÃæÎ²²¿Ìí¼ÓÒ»¶ÎJS´úÂë¡£
-ps:ĞèÒªËµÃ÷µÄÊÇ£¬(http://livereload.com/) ¹ÙÍøÌá¹©µÄ²å¼şÊÇ¿ªÔ´Ãâ·ÑµÄ£¬µ«ÊÇÌá¹©µÄ·şÎñ¶ËÊÇÊÕ·ÑµÄ¡£
+ä½ æœ‰ä¸¤ç§æ–¹å¼æ¥è¿æ¥è¿™ä¸ªæœåŠ¡ç«¯ï¼šä¸€ç§æ˜¯å®‰è£…(http://livereload.com/) ç½‘ç«™æä¾›çš„æ’ä»¶ï¼Œä¸€ç§æ˜¯åœ¨ä½ çš„HTMLé¡µé¢å°¾éƒ¨æ·»åŠ ä¸€æ®µJSä»£ç ã€‚
+ps:éœ€è¦è¯´æ˜çš„æ˜¯ï¼Œ(http://livereload.com/) å®˜ç½‘æä¾›çš„æ’ä»¶æ˜¯å¼€æºå…è´¹çš„ï¼Œä½†æ˜¯æä¾›çš„æœåŠ¡ç«¯æ˜¯æ”¶è´¹çš„ã€‚
 
 ## Method 1: Add browser extension
 
 Install the LiveReload browser plugins by visiting [chrome: https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei]).
-°²×°LiveReloadÌá¹©µÄä¯ÀÀÆ÷²å¼ş£¬Chrome²å¼ş£º[https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei]
+å®‰è£…LiveReloadæä¾›çš„æµè§ˆå™¨æ’ä»¶ï¼ŒChromeæ’ä»¶ï¼š[https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei]
 
 Only Google Chrome supports viewing `file:///` URLS, and you have to specifically enable it. If you are using other browsers and want to use `file:///` URLs, add the JS code to the page as shown in the next section.
 
@@ -30,10 +31,10 @@ Add this code:
 
 Note: If you are using a different port other than `35729` you will
 need to change the above script.
-ÔÚHTMLÒ³Ãæbody±ÕºÏÖ®Ç°Ìí¼ÓÉÏÃæµÄjs´úÂë£¬×¢ÒâÈç¹ûÄãµÄ·şÎñ¶ËµÄ¶Ë¿ÚºÅ×÷ÁËĞŞ¸Ä£¬ÉÏÃæ´úÂëÖĞµÄ¶Ë¿ÚºÅÒ²Òª×öĞŞ¸Ä¡£
+åœ¨HTMLé¡µé¢bodyé—­åˆä¹‹å‰æ·»åŠ ä¸Šé¢çš„jsä»£ç ï¼Œæ³¨æ„å¦‚æœä½ çš„æœåŠ¡ç«¯çš„ç«¯å£å·ä½œäº†ä¿®æ”¹ï¼Œä¸Šé¢ä»£ç ä¸­çš„ç«¯å£å·ä¹Ÿè¦åšä¿®æ”¹ã€‚
 # install livereload
 firstly, you should install livereload.js by bower
-Ê×ÏÈ£¬ÄãĞèÒªÍ¨¹ıbower°²×°livereload.js
+é¦–å…ˆï¼Œä½ éœ€è¦é€šè¿‡bowerå®‰è£…livereload.js
 ```
     bower install
 ```
@@ -41,7 +42,7 @@ firstly, you should install livereload.js by bower
 # Running hmreload
 
 You can run LiveReload two ways:
-ÄãÓĞÁ½ÖÖ·½·¨ÔËĞĞhm-livereload:
+ä½ æœ‰ä¸¤ç§æ–¹æ³•è¿è¡Œhm-livereload:
 
 ## Option 1: Command line
 
@@ -50,17 +51,17 @@ To use livereload from the command line:
     $ npm install -g hmreload
     $ hmreload [path]
 ```
-µÚÒ»ÖÖ·½·¨ÔÚÃüÁîĞĞ£¬ÔËĞĞÉÏÃæµÄÃüÁî¡£
+ç¬¬ä¸€ç§æ–¹æ³•åœ¨å‘½ä»¤è¡Œï¼Œè¿è¡Œä¸Šé¢çš„å‘½ä»¤ã€‚
 
 ## Option 2: From within your own project
 
 To use the api within a project:
-µÚ¶şÖÖ·½·¨£¬ÎªÁËÊ¹ÓÃlivereloadµÄapi£¬ÏÈ°²×°Õâ¸öÄ£¿é£º
+ç¬¬äºŒç§æ–¹æ³•ï¼Œä¸ºäº†ä½¿ç”¨livereloadçš„apiï¼Œå…ˆå®‰è£…è¿™ä¸ªæ¨¡å—ï¼š
 ```
     $ npm install hmreload
 ```
 Then, create a server and fire it up.
-È»ºó´´½¨Ò»¸ö·şÎñÆ÷£¬²¢Æô¶¯¡£
+ç„¶ååˆ›å»ºä¸€ä¸ªæœåŠ¡å™¨ï¼Œå¹¶å¯åŠ¨ã€‚
 ```
     livereload = require('hmreload');
     server = livereload.createServer();
@@ -68,7 +69,7 @@ Then, create a server and fire it up.
 ```
 You can also use this with a Connect server. Here's an example of a simple server
 using `connect` and a few other modules just to give you an idea:
-ÄãÒ²¿ÉÒÔÊ¹ÓÃConnect·şÎñÆ÷£¬ÏÂÃæÊÇÒ»¸öÊ¹ÓÃconnectºÍÆäËûÄ£¿éµÄÀı×Ó
+ä½ ä¹Ÿå¯ä»¥ä½¿ç”¨ConnectæœåŠ¡å™¨ï¼Œä¸‹é¢æ˜¯ä¸€ä¸ªä½¿ç”¨connectå’Œå…¶ä»–æ¨¡å—çš„ä¾‹å­
 
 ```
 var connect  = require('connect');
@@ -95,11 +96,11 @@ server.watch(__dirname + "/public");
 ```
 
 You can then start up the server which will listen on port `3000`.
-Äã¿ÉÒÔÆô¶¯ÄãµÄ·şÎñÆ÷ÁË£¬¼àÌı¶Ë¿ÚÊÇ3000
+ä½ å¯ä»¥å¯åŠ¨ä½ çš„æœåŠ¡å™¨äº†ï¼Œç›‘å¬ç«¯å£æ˜¯3000
 ## Watching multiple paths:
 
 Passing an array of paths or glob patterns will allow you to watch multiple directories. All directories have the same configuration options.
-Èç¹ûĞèÒª¼àÌı¶à¸öÄ¿Â¼£¬Äã¿ÉÒÔÔÚwatchµÄ²ÎÊıÖĞ´«ÈëÒ»¸öÊı×é¡£
+å¦‚æœéœ€è¦ç›‘å¬å¤šä¸ªç›®å½•ï¼Œä½ å¯ä»¥åœ¨watchçš„å‚æ•°ä¸­ä¼ å…¥ä¸€ä¸ªæ•°ç»„ã€‚
 
 ```js
 server.watch([__dirname + "/js", __dirname + "/css"]);
@@ -116,12 +117,12 @@ server.watch('/User/Workspace/test');
 ```
 
 Then run the server:
-È»ºó¿ÉÒÔÆô¶¯·şÎñÆ÷£º
+ç„¶åå¯ä»¥å¯åŠ¨æœåŠ¡å™¨ï¼š
 ```
 $ node server.js`
 ```
 Then, assuming your HTML file has a stylesheet link like this:
-¼ÙÉèÄãµÄHTMLÒ³ÃæÓĞÒ»¸öCSSÎÄ¼şµÄÁ´½Ó£¬ÈçÏÂ£º
+å‡è®¾ä½ çš„HTMLé¡µé¢æœ‰ä¸€ä¸ªCSSæ–‡ä»¶çš„é“¾æ¥ï¼Œå¦‚ä¸‹ï¼š
 ```html
 <!-- html -->
 <head>
@@ -130,11 +131,11 @@ Then, assuming your HTML file has a stylesheet link like this:
 ```
 
 When `/User/Workspace/test/css/style.css` is modified, the stylesheet will be reload.
-µ±`/User/Workspace/test/css/style.css`Õâ¸öÎÄ¼şĞŞ¸ÄµÄÊ±ºò£¬»á×Ô¶¯¸üĞÂ¼ÓÔØĞÂµÄcssÎÄ¼ş¡£
+å½“`/User/Workspace/test/css/style.css`è¿™ä¸ªæ–‡ä»¶ä¿®æ”¹çš„æ—¶å€™ï¼Œä¼šè‡ªåŠ¨æ›´æ–°åŠ è½½æ–°çš„cssæ–‡ä»¶ã€‚
 # Command-line Options
 
 The commandline options are
-ÃüÁî¿ØÖÆĞĞµÄÑ¡Ïî£º
+å‘½ä»¤æ§åˆ¶è¡Œçš„é€‰é¡¹ï¼š
 
 * `-p` or `--port` to specify the listening port
 * `-d` or `--debug` to show debug messages when the browser reloads.
@@ -142,7 +143,7 @@ The commandline options are
 * `-u` or `--usepolling` to poll for file system changes. Set this to true to successfully watch files over a network.
 
 Specify the path when using the options.
-Ê¹ÓÃÑ¡ÏîµÄÊ±ºò£¬ĞèÒªÖÆ¶¨Â·¾¶
+ä½¿ç”¨é€‰é¡¹çš„æ—¶å€™ï¼Œéœ€è¦åˆ¶å®šè·¯å¾„
 ```
 $ hmreload . -i 200
 ```
