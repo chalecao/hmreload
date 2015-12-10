@@ -1,5 +1,4 @@
-?
-hm-livereload
+hmreload
 ===============
 
 An implementation of the LiveReload server in Node.js. It's an alternative to the graphical [http://livereload.com/](http://livereload.com/) application, which monitors files for changes and reloads your web browser.
@@ -39,7 +38,7 @@ firstly, you should install livereload.js by bower
     bower install
 ```
 
-# Running hm-LiveReload
+# Running hmreload
 
 You can run LiveReload two ways:
 你有两种方法运行hm-livereload:
@@ -48,7 +47,7 @@ You can run LiveReload two ways:
 
 To use livereload from the command line:
 ```
-    $ npm install -g hmlivereload
+    $ npm install -g hmreload
     $ hmreload [path]
 ```
 第一种方法在命令行，运行上面的命令。
@@ -58,12 +57,12 @@ To use livereload from the command line:
 To use the api within a project:
 第二种方法，为了使用livereload的api，先安装这个模块：
 ```
-    $ npm install hmlivereload
+    $ npm install hmreload
 ```
 Then, create a server and fire it up.
 然后创建一个服务器，并启动。
 ```
-    livereload = require('hmlivereload');
+    livereload = require('hmreload');
     server = livereload.createServer();
     server.watch(__dirname + "/public");
 ```
@@ -90,7 +89,7 @@ server.use(  static(__dirname + '/public'));
 
 server.listen(3000);
 
-livereload = require('hmlivereload');
+livereload = require('hmreload');
 server = livereload.createServer();
 server.watch(__dirname + "/public");
 ```
@@ -145,7 +144,7 @@ The commandline options are
 Specify the path when using the options.
 使用选项的时候，需要制定路径
 ```
-$ livereload . -i 200
+$ hmreload . -i 200
 ```
 
 
